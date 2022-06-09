@@ -1,4 +1,4 @@
-package myFirstProgramms;
+package estudosJavaP1;
 
 import javax.swing.JOptionPane;
 

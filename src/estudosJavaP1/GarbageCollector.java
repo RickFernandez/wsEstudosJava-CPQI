@@ -1,4 +1,4 @@
-package myFirstProgramms;
+package estudosJavaP1;
 
 public class GarbageCollector {
     public static void main(String[] args) {
