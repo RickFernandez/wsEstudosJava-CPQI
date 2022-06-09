@@ -1,4 +1,4 @@
-package myFirstProgramms;
+package estudosJavaP1;
 
 public class TiposPrimitivos {
     public static void main(String[] args) {
