@@ -52,7 +52,5 @@ public class JogoDeDados {
 		else {
 			System.out.println("Que pena, voce errou... O valor sorteado foi " + valorTotal);
 		}
-		
 	}
 }
-

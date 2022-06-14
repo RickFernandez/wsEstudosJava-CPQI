@@ -33,19 +33,19 @@ public class CalculadoraIMC {
 		System.out.println(nome + " o valor do seu IMC é: " + bd.doubleValue());
 		
 		//Faz as restrições de acordo com o valor do IMC calculado
-		if (imc < 18.5) {
+		if (imc <= 18.5) {
 			System.out.println("Voce esta abaixo do peso.");
-		} else if (imc < 24.9) {
+		} else if (imc <= 24.9) {
 			System.out.println("Voce esta no peso ideial. Parabens!");
-		} else if (imc < 29.9) {
+		} else if (imc <= 29.9) {
 			System.out.println("Voce esta levemente acima do peso.");
-		} else if (imc < 34.9) {
+		} else if (imc <= 34.9) {
 			System.out.println("Voce esta com uma obesidade moderada.");
-		} else if (imc < 39.0) {
+		} else if (imc <= 39.0) {
 			System.out.println("Voce esta com uma obesidade severa.");
-		}else if (imc < 49.0) {
+		}else if (imc <= 49.0) {
 			System.out.println("Voce esta com uma obesidade merbida.");
-		}else if (imc >= 50.0) {
+		}else {
 			System.out.println("Voce esta com uma super-obesidade. Tome Cuidado!!!.");
 		}
 	}
