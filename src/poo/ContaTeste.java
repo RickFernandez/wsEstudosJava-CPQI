@@ -1,6 +1,6 @@
 package poo;
 
-public class ContaTeste {
+public class ContaTeste extends Conta{
 	
 	public static void main(String[] args) {
 		
