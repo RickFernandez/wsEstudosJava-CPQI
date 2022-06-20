@@ -6,14 +6,14 @@ public class ContaTeste extends Conta{
 		
 		Conta conta = new Conta();
 		
-		conta.cliente = "Rick";
-		conta.saldo = 10_000.00;
+		conta.setCliente("Rick");
+		conta.setSaldo(10_000.00);
 		conta.exibeSaldo();
 		
 		Conta destino = new Conta();
 		
-		destino.cliente = "Biel";
-		destino.saldo = 8_000.00;
+		destino.getCliente();
+		destino.getSaldo();
 		destino.exibeSaldo();
 		
 		conta.transferePara(destino, 1550.00);
