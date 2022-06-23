@@ -21,7 +21,7 @@ public class Serializa {
 		
 		// ESCRITA DE OBJETO
 		FileOutputStream fos = new FileOutputStream("C:/Usuários/Henrique Soares/OneDrive - CPQi/Área de Trabalho/wsEstudosJava/myFirstPrograms/src/files/objeto.ser");
-		ObjectOutputStream oos = new ObjectOutputStream(fos);
+		ObjectOutputStream oos = new ObjectOutputStream(fos); //Realiza a gravação nos arquivos
 		
 		//oos.writeObject(nomes); //Grava o objeto 'nomes' dentro do endereço
 		//oos.close(); //Fecha a ligação com o arquivo
