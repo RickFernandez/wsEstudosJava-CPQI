@@ -1,8 +1,9 @@
 package poo;
 
+@SuppressWarnings("serial")
 public class Conta implements java.io.Serializable {
 
-	private String cliente;
+	public String cliente;
 	private double saldo;
 	
 	

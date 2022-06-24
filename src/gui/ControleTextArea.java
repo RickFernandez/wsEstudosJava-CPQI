@@ -31,6 +31,7 @@ public class ControleTextArea extends JFrame implements ActionListener {
 		
 		texto = new JTextArea(); //Cria um textArea
 		texto.setFont(new Font("serif", Font.PLAIN, 26));
+		texto.append("Ola Mundo");
 		
 		JScrollPane scroll = new JScrollPane(texto); //Assim que necessário, o programa cria um Scoll na tela
 		

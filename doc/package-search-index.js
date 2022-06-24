@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"colecao"},{"l":"erros"},{"l":"estudosJavaP1"},{"l":"estudosJavaP2"},{"l":"estudosJavaP3"},{"l":"estudosJavaP4"},{"l":"gui"},{"l":"herança"},{"l":"pacoteString"},{"l":"poo"},{"l":"refinado"},{"l":"threads"}];updateSearchResults();
